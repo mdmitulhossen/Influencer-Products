@@ -1,16 +1,25 @@
 /* nav responsive style  */
 @media screen and (min-width:576px) {
-   .card{
-    width: 70%;
-   }
-   .card-image img{
-    height: 280px;
-   }
-   .seeMore-btn{
-    margin: 30px 150px 0 0;
-   }
+    .card {
+        width: 70%;
+    }
+
+    .card-image img {
+        height: 280px;
+    }
+
+    .seeMore-btn {
+        margin: 30px 150px 0 0;
+    }
+    .logo{
+        font-size: 30px;
+    }
 }
+
 @media screen and (min-width:786px) {
+    .logo{
+        font-size: 35px;
+    }
     .nav-list {
         display: block;
     }
@@ -21,7 +30,8 @@
 
     nav,
     .header,
-    .sponser {
+    .sponser,
+    .join-now {
         padding: 50px 120px;
     }
 
@@ -67,36 +77,60 @@
 
 
     /* Collection */
-    .collection-content{
+    .collection-content {
         grid-template-columns: 360px 360px 360px;
-        
+
     }
-    .card{
+
+    .card {
         width: 330px;
-       }
-       .card-image img{
+    }
+
+    .card-image img {
         height: 256px;
-       }
-      
-}
-
-
-@media screen and (min-width:992px) {
-    .nav-list li {
-        margin-right: 50px;
     }
 
+    .join-now-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .join-now-content{
+        text-align: left;
+        width: 58%;
+    }
+    .join-now-content btn{
+        margin-left: 0;
+    }
+    .join-now-image{
+        width: 40%;
+     }
+     .join-now{
+        margin-top: 50px;
+     }
+/* footer */
+     .footer{
+        height: 240px;
+     }
 }
 
+    @media screen and (min-width:992px) {
+        .nav-list li {
+            margin-right: 50px;
+        }
 
-
-@media screen and (min-width:1200px) {}
-
-
-
-@media screen and (min-width:1400px) {
-    body {
-        max-width: 1920px;
     }
 
-}
+
+
+    @media screen and (min-width:1200px) {}
+
+
+
+    @media screen and (min-width:1400px) {
+        body {
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+
+    }
