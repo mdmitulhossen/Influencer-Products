@@ -1,5 +1,12 @@
 /* nav responsive style  */
-
+@media screen and (min-width:576px) {
+   .card{
+    width: 70%;
+   }
+   .card-image img{
+    height: 280px;
+   }
+}
 @media screen and (min-width:786px) {
     .nav-list {
         display: block;
@@ -53,9 +60,18 @@
         border-image: linear-gradient(to right, rgba(77, 77, 78, 0), rgba(77, 77, 78, 0.281), rgba(77, 77, 78, 0.029)) 1;
         border-left: 0;
         border-right: 0;
-
-
     }
+
+    .collection-content{
+        grid-template-columns: 360px 360px 360px;
+        
+    }
+    .card{
+        width: 330px;
+       }
+       .card-image img{
+        height: 256px;
+       }
 }
 
 
