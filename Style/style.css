@@ -32,10 +32,18 @@
     font-weight: 600;
     background-color: var(--btn);
 }
-.btn span{
+.btn,.seeMore-btn span{
     margin-left: 15px;
 }
-
+.seeMore-btn{
+    color: var(--btn);
+    font-size: 22px;
+    font-weight: 700;
+    background-color: white;
+    border: 0;
+    float: right;
+    cursor: pointer;
+}
 
 /* Header style */
 /* nav related style  */
@@ -74,7 +82,8 @@ nav{
 /* header section related style  */
 .header,
 .sponser,
-.collection{
+.collection,
+.join-now{
     padding: 20px 15px;
     margin-top: 10px;
 }
@@ -170,5 +179,30 @@ nav{
    font-size: 14px;
    margin-top: 15px;
    color: var(--cardDescription);
+}
+
+
+/* Join Now */
+.join-now-content{
+  text-align: center;
+  margin: 50px 0;
+}
+.join-now-content .btn{
+  margin-top: 20px;
+}
+.join-now-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.join-now-image img{
+   width: 100%;
+}
+.join-now-image{
+    width: 90%;
 }
 
